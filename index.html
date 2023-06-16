@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Merienda:wght@300;600&display=swap" rel="stylesheet">
+    <script>
+        document.getElementById("site").innerHTML = "My First JavaScript";
+        </script>
+    <title>Gmans Coner</title>
+</head>
+<body class="bodyContainer">
+
+  <!-- NAVBAR -->
+    <div class="navbar">
+        <h3>Gmans Corner</h3>
+        <div class="menuItem">
+            <select name="" class="menuSelect" id="">
+                <option value="0">Cakes</option>
+                <option value="1">Smoothies</option>
+                <option value="2">Coffee</option>
+                <option value="3">Ice Cream</option>
+            </select>
+        </div>
+        <div class="header">
+            <span>Cakes</span>
+            <span>Smoothies</span>
+            <span>Coffee</span>
+             <span>Ice Cream</span>
+         </div> 
+    </div>
+
+    <!-- MOTO -->
+    <section class="moto">
+        <p>nothing tastes better</p>
+    </section>
+
+
+    <!-- HERO SLIDER -->
+    <div class="slider">
+        <input type="radio" name="toggle" id="btn-1" checked>
+        <input type="radio" name="toggle" id="btn-2">
+        <input type="radio" name="toggle" id="btn-3">
+        <input type="radio" name="toggle" id="btn-4">
+      
+        <div class="slider-controls">
+          <label for="btn-1"></label>
+          <label for="btn-2"></label>
+          <label for="btn-3"></label>
+          <label for="btn-4"></label>
+        </div>
+      
+        <ul class="slides">
+          <li class="slide">
+            <div class="slide-content">
+              <h2 class="slide-title">Cakes</h2>
+              <p class="slide-text">Freshly baked cakes. Our cakes sell so fast we never keep a cake overnight because of the taste and quality. We also customize cakes as per request</p>
+              <button class="slide-link"><a href="#" >View cakes</a></button>
+            </div>
+            <p class="slide-image">
+              <img src="./cake.png" alt="stuff" width="400" >
+            </p>
+          </li>
+
+          <li class="slide">
+            <div class="slide-content">
+              <h2 class="slide-title">Smoothies</h2>
+              <p class="slide-text">We pride ourselves inour smoothies. Blended from fresh fruites and they are seved not more than 2 mins after blending</p>
+              <button class="slide-link"><a href="#" >View smoothies</a></button>
+            </div>
+            <p class="slide-image">
+              <img src="./smoothie.png" alt="stuff" width="" height="280">
+            </p>
+          </li>
+
+          <li class="slide">
+            <div class="slide-content">
+              <h2 class="slide-title">Coffee</h2>
+              <p class="slide-text">We are the home of a very wide range of coffees and cuppuchinos. We roast and grind our own coffee seeds</p>
+              <button class="slide-link"><a href="#" >View coffees</a></button>
+            </div>
+            <p class="slide-image">
+              <img src="coffee.png" alt="stuff" width="350" height="">
+            </p>
+          </li>
+          
+          <li class="slide">
+            <div class="slide-content">
+              <h2 class="slide-title">Ice Cream</h2>
+              <p class="slide-text">We craft our very own ice creams in house. We have a wide range of varieties when it comes to flavours. Our flavours cannot be foud anywhere else</p>
+              <button class="slide-link"><a href="#" >View Ice creams</a></button>
+            </div>
+            <p class="slide-image">
+              <img src="./iceCream.png" alt="stuff" width="320" height="">
+            </p>
+          </li>
+        </ul>
+    </div>
+
+    <!-- ABOUT US -->
+    <div class="about">
+      <h1>About</h1>
+      <img src="./banner.jpg" alt="">
+      <div class="aboutText">
+        <h3>Who are we?</h3>
+        <p>
+          <b>Gmans Corner</b> is the home of unique and creativity. We always go all out and keep pushing the boundary further and further. As our moto says <b><em>"nothing tastes better"</em></b>. It has been proven!
+        </p>
+      </div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div class="products">
+      <h1>Products</h1>
+      <div class="productList">
+        <div class="row">
+
+          <div class="productContainer">
+            <div class="productInfo">
+              <img src="./cake1.png" alt="" width="">
+              <div>
+                <span class="productInfoName">Cakes</span>
+                <span class="productInfoQuantity">12 Products</span>
+              </div>
+            </div>
+            <div class="productInfoOverlay">
+              <img src="./view.png" alt="" width="100">
+            </div>
+          </div>
+
+          <div class="productContainer">
+            <div class="productInfo">
+              <img src="./muffin.png" alt="" width="180">
+              <div>
+                <span class="productInfoName">Muffins</span>
+                <span class="productInfoQuantity">21 Products</span>
+              </div>
+            </div>
+            <div class="productInfoOverlay">
+              <img src="./view.png" alt="" width="100">
+            </div>
+          </div>
+
+          <div class="productContainer">
+            <div class="productInfo">
+              <img src="./coffee1.png" alt="" width="100">
+              <div>
+                <span class="productInfoName">Coffee</span>
+                <span class="productInfoQuantity">6 Products</span>
+              </div>
+            </div>
+            <div class="productInfoOverlay">
+              <img src="./view.png" alt="" width="100">
+            </div>
+          </div>
+
+          <div class="productContainer">
+            <div class="productInfo">
+              <img src="./cappuccino.png" alt="" width="300">
+              <div>
+                <span class="productInfoName">Cappuccinos</span>
+                <span class="productInfoQuantity">3 Products</span>
+              </div>
+            </div>
+            <div class="productInfoOverlay">
+              <img src="./view.png" alt="" width="100">
+            </div>
+          </div>
+
+          <div class="productContainer">
+            <div class="productInfo">
+              <img src="./smoothie1.png" alt="" width="200">
+              <div>
+                <span class="productInfoName">Smoothies</span>
+                <span class="productInfoQuantity">14 Products</span>
+              </div>
+            </div>
+            <div class="productInfoOverlay">
+              <img src="./view.png" alt="" width="100">
+            </div>
+          </div>
+
+          <div class="productContainer">
+            <div class="productInfo">
+              <img src="./milkshake.png" alt="" width="200">
+              <div>
+                <span class="productInfoName">Milkshakes</span>
+                <span class="productInfoQuantity">16 Products</span>
+              </div>
+            </div>
+            <div class="productInfoOverlay">
+              <img src="./view.png" alt="" width="100">
+            </div>
+          </div>
+
+          <div class="productContainer">
+            <div class="productInfo">
+              <img src="./cookies.png" alt="" width="200">
+              <div>
+                <span class="productInfoName">Cookies</span>
+                <span class="productInfoQuantity">26 Products</span>
+              </div>
+            </div>
+            <div class="productInfoOverlay">
+              <img src="./view.png" alt="" width="100">
+            </div>
+          </div>
+
+          <div class="productContainer">
+            <div class="productInfo">
+              <img src="./iceCream1.png"  alt="" width="100">
+              <div>
+                <span class="productInfoName">Ice creams</span>
+                <span class="productInfoQuantity">22 Products</span>
+              </div>
+            </div>
+            <div class="productInfoOverlay">
+              <img src="./view.png" alt="" width="100">
+            </div>
+
+
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- TESTIMONIALS -->
+
+    <div class="review">
+        <h1>Client review...</h1>
+    </div>
+
+    <div class="reviews">
+        <div class="review1">
+            <p>
+                ...their service is amaizing. The stuff there is very kind and very proffessional....
+            </p>
+            <h2>
+                Sarah Jones
+            </h2>
+        </div>
+
+        <div class="review2">
+            <p>
+                ...their smoothies are second to non. I visit their shop at minimum 2 times a week....
+            </p>
+            <h2>
+                Phindile Mojaki
+            </h2>
+        </div>
+
+        <div class="review3">
+            <p>
+                ...I got them to bake a custom cake for my grand mom for her birthday. Long story short im now the favourate grandson....
+            </p>
+            <h2>
+                Mpho Khosa
+            </h2>
+        </div>
+
+        <div class="review4">
+            <p>
+                ...I love their Ice creams. They always have new flavours and their flavors are custom ....
+            </p>
+            <h2>
+                Merika Botha
+            </h2>
+        </div>
+
+        <div class="review5">
+            <p>
+                ...their coffee is the best, you definetly cant get better anywhere else !!!
+            </p>
+            <h2>
+                Sarah Jones
+            </h2>
+        </div>
+    </div>
+
+    <!-- FOLLOW US -->
+
+    <div class="followContainer">
+        <div class="follow">
+            <!-- <img src="./coffee-bar.jpg" alt="" height="233"> -->
+            <img src="./machine.jpg" alt="" height="233" class="coffeeMachine">
+            <img src="./follow.png" alt="">
+            <img src="./cakeDisplay.jpg" alt="" height="233">
+            
+        </div>
+        <div class="frostglass"></div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+        <div class="links">
+            <div>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+                <p>Cookie Policy</p>
+            </div>
+            <div>
+                <p>Cakes</p>
+                <p>Coffee</p>
+                <p>Ice creams</p>
+            </div>
+            <div>
+                <p>Muffins</p>
+                <p>Juices</p>
+                <p>Smoothies</p>
+            </div>
+        </div>
+        <div class="footerLogo">
+            <h3>Gmans Corner</h3>
+        </div>
+        <div class="details">
+            <div>
+                <p>Contact Us </p>
+                <p>+27 08 123 1234</p>
+                <p>10 Rosebank lane 19263 Rosebank</p>
+            </div>
+        </div>
+    </div>
+
+    <p class="designed">Designed and built by Gman ®</p>
+   
+    
+</body>
+</html>
+
