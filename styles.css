@@ -48,7 +48,7 @@
 
 @media (max-width: 480px) {
   .navbar {
-    display: none;
+    display: flex;
     align-items: center;
     font-family: 'Rajdhani', sans-serif;
     justify-content: space-between;
@@ -61,7 +61,7 @@
 
 @media (min-width: 481px) and (max-width: 811px) {
   .navbar {
-    display: none;
+    display: flex;
     align-items: center;
     font-family: 'Rajdhani', sans-serif;
     justify-content: space-between;
@@ -145,48 +145,6 @@
   cursor: pointer;
 }
 
-.menu, .drop-menu {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu-item {
-  display: inline-block;
-  background-color: #4285f4;
-  position: relative;
-}
-
-.menu-item a {
-  text-decoration: none;
-  padding: 6px 10px;
-  color: #fff;
-  display: block;
-}
-
-.drop-menu {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  min-width: 100px;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
-}
-
-.drop-menu-item {
-  width: 100%;
-}
-
-.drop-menu-item:hover {
-  background-color: #eee;
-}
-
-.drop-menu-item a {
-  color: #555;
-}
-
-.menu-item:hover .drop-menu {
-  display: block;
-}
 
 /* MOTO */
 .moto {
@@ -882,6 +840,26 @@
   }
 }
 
+.followUsContainer {
+  margin-top: 30px;
+  padding: 0 20px;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+@media only screen and (max-width: 810px) {
+  .followUsContainer {
+    margin-top: 50px;
+    padding: 0 5px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+}
+
 .follow {
   display: flex;
   justify-content: center;
@@ -1143,7 +1121,7 @@
 
 @media (max-width: 480px) {
   .otherProducts {
-    margin-top: 300px;
+    margin-top: 40px;
     width: 100%;
   }
 }
@@ -1213,7 +1191,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 20px 20px 20px;
-    margin-top: 50px;
+    margin-top: 600px;
     height: 120px;
   }
 }
